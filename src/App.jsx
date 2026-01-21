@@ -8,6 +8,7 @@ import ProductCalculator from "./CE06012026/Product"
 import Multipart from "./CE13012026/multipart"
 import Hook1Example from "./CE20012026/hook"
 import Hook2Example from "./CE20012026/hook2"
+import UseState3 from "./CE21012026/useState3"
 
 
 
@@ -15,7 +16,7 @@ import Hook2Example from "./CE20012026/hook2"
 function App() {
   return (
     <div>
-      {/* {<>Welcome to My React App</>
+      {/* <>Welcome to My React App</>
       <FirstClass />
       <CardComponent />
       <StateExample /> 
@@ -23,9 +24,10 @@ function App() {
       <RenderCond />
       <ContactBook />
       <ProductCalculator />
-      <Multipart/> } */
-      // <Hook1Example />
-      <Hook2Example />}
+      <Multipart/> 
+      <Hook1Example />
+      <Hook2Example /> */}
+      <UseState3 />
 
     </div>
   )
