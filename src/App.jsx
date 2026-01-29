@@ -9,6 +9,7 @@ import Multipart from "./CE13012026/multipart"
 import Hook1Example from "./CE20012026/hook"
 import Hook2Example from "./CE20012026/hook2"
 import UseState3 from "./CE21012026/useState3"
+import ContactBook1 from "./CE27012026/state_exe"
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Hook1Example />
       <Hook2Example /> 
       <UseState3 />
+      <ContactBook1 />
 
     </div>
   )
