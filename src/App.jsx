@@ -10,6 +10,9 @@ import Hook1Example from "./CE20012026/hook"
 import Hook2Example from "./CE20012026/hook2"
 import UseState3 from "./CE21012026/useState3"
 import ContactBook1 from "./CE27012026/state_exe"
+import HookExample1 from "./CE29012026/hook1"
+import ShoppingCart from "./CE10022026/shoppingcart"
+
 
 
 
@@ -17,19 +20,21 @@ import ContactBook1 from "./CE27012026/state_exe"
 function App() {
   return (
     <div>
-      <h1>Welcome to My React App</h1>
-      <FirstClass />
-      <CardComponent />
-      <StateExample />
-      <SringState />
-      <RenderCond />
-      <ContactBook />
-      <ProductCalculator />
-      <Multipart/> 
-      <Hook1Example />
-      <Hook2Example /> 
-      <UseState3 />
-      <ContactBook1 />
+      {/* <h1>Welcome to My React App</h1>
+        <FirstClass />
+        <CardComponent />
+        <StateExample />
+        <SringState />
+        <RenderCond />
+        <ContactBook />
+        <ProductCalculator />
+        <Multipart/> 
+        <Hook1Example />
+        <Hook2Example /> 
+        <UseState3 />
+        <ContactBook1 /> 
+      <HookExample1 />  */}
+      <ShoppingCart />
 
     </div>
   )
