@@ -11,7 +11,7 @@ import React, { useState } from "react";
 
 const TAX_RATE = 0.1;
 
-const ShoppingCart = () => {
+const Cart = () => {
   // Cart and form state
   const [cartItems, setCartItems] = useState([]);
   const [itemName, setItemName] = useState("");
@@ -265,4 +265,4 @@ const ShoppingCart = () => {
   );
 };
 
-export default ShoppingCart;
+export default Cart;

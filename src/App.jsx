@@ -11,7 +11,9 @@ import Hook2Example from "./CE20012026/hook2"
 import UseState3 from "./CE21012026/useState3"
 import ContactBook1 from "./CE27012026/state_exe"
 import HookExample1 from "./CE29012026/hook1"
-import ShoppingCart from "./CE10022026/shoppingcart"
+import Cart from "./Try/cart"
+import CartTheme from "./CE10022026/shopping_cart"
+
 
 
 
@@ -33,8 +35,11 @@ function App() {
         <Hook2Example /> 
         <UseState3 />
         <ContactBook1 /> 
-      <HookExample1 />  */}
-      <ShoppingCart />
+      <HookExample1 />  
+      <Cart /> */}
+      {/* <ShoppingCart /> */}
+      <CartTheme />
+
 
     </div>
   )
